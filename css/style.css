@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+ 
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(227, 227, 227, 0.178);
+}
+ 
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.mr{
+    margin-right: 2% ;
+}
+.demo{
+ 
+    min-height: 100px;
+}
+.header{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+}
+.footer{
+    background-color: aquamarine;
+    border: 1px #090 solid;
+    font-size: 0.8vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+ 
+.header h1{
+    margin:20px;
+    font-size: 1.2vw;
+}
+ 
+.boxtrai{
+    float: left;
+    width: 74%;
+}
+.boxphai{
+    float: left;
+    width: 24%;
+}
+.boxtitle{
+    color: #333;
+    padding: 10px;
+    background-color: #EEE;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px #CCC solid;
+}
+.boxcontent{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    min-height: 200px;
+}
+.boxcontent2{
+    border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+.boxfooter{
+    padding: 10px;
+    background-color: #EEE;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+   border-left: 1px #CCC solid;
+    border-right: 1px #CCC solid;
+    border-bottom: 1px #CCC solid;
+}
+.banner{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    height: 300px;
+ 
+}
+.boxsp{
+    float: left;
+    width: 30%;
+    min-height: 100px;
+    border: 1px #EEE solid;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    width: 166.14px;
+    height: 241px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+ 
+
+ 
+.boxsp .img{
+    min-height: 150px;
+    text-align: center;
+}
+ 
+.boxsp a {
+    margin-right: 30px;
+    font-size: 15px;
+}
+ 
+.img{
+    position: relative;
+}
+ 
+.img img{
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ 
+.menu ul{
+    padding: 0px 15px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.menu ul li a:hover{
+    color: #ff3838;
+}
+ 
+.formtaikhoan{
+    line-height: 150%;
+   padding: 20px ;
+}
+.formtaikhoan input[type="file"]{
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.formtaikhoan input[type="text"], .formtaikhoan input[type="password"],.formtaikhoan input[type="email"],
+.formcontent input[type="text"]
+{
+   
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.formtaikhoan input[type="checkbox"]{
+    border-radius: 5px;
+}
+.formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]
+{
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px #CCC solid;
+}
+.formtaikhoan input[type="submit"]:hover,.formcontent input[type="submit"]:hover,.formcontent input[type="reset"]:hover,.formcontent input[type="button"]:hover{
+    background-color: #CCC;
+}
+ 
+/*menu doc*/
+.menudoc ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ 
+.menudoc ul li{
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-bottom: 1px #CCC solid;
+}
+.menudoc ul li a{
+    color: #666;
+    text-decoration: none;
+}
+.menudoc ul li:hover{
+    background-color: #CCC;
+}
+  .searbox input[type="text"]{
+      width: 100%;
+      padding: 5px 10px;
+      background-color: #FFF;
+      border: 1px #CCC solid;
+      border-radius: 5px;
+  }
+  .top10{
+     margin-left: 15px;
+      margin-top: 10px;
+  }
+  .top10 img{
+      width: 40%;
+      height: 40%;
+      float: left;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px #CCC solid;
+  }
+  .top10 a{
+      color: #666;
+      text-decoration: none;
+  }.top a:hover{
+    color: #000;
+    text-decoration: underline;
+     }
+ 
+     p{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #ff3838;
+     }
+ 
+     .boxsp h3 {
+        color: black;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 7px;
+     }
+ 
+ 
+   /*admin*/
+.headeradmin{
+    background-color: #EEE;
+    border: 1px #090 solid;
+    font-size: 1vw;
+    color: #666;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+.headeradmin h1{
+    font-size: 2vw;
+}
+.formcontent{
+    padding: 20px 0px;
+}
+.formdsl table{
+    width: 100%;
+    border-collapse: collapse;
+ 
+}
+.formdsl table th{
+   
+    background-color: #CCC;
+    padding: 20px 0px;
+}
+/* .formdsl table th:nth-child(2){
+    width: 30%;
+    background-color: #CCC;
+}
+.formdsl table th:nth-child(3){
+    width: 40%;
+    background-color: #CCC;
+}
+.formdsl table th:nth-child(4){
+    width: 20%;
+    background-color: #CCC;
+} */
+.formdsl table td{
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+ 
+ 
+ 
+/* slide show*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+ 
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+ 
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ 
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+ 
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+ 
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+ 
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+ 
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+ 
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+ 
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ 
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  /* end side show */
+  .spct img{
+    width: 60%;
+    height: 60%;
+  }
+  .spct{
+    text-align: center;
+  }
+  .thongbao{
+    color: red;
+  }
+ 
+ 
+  /* sua */
+  .menu {
+    display: flex;
+    align-items: center;
+    padding: 10px ;
+    background-color: #fff;
+  }
+ 
+  .menu a {
+    color: black;
+  }
+ 
+  .list table {
+    width: 80%;
+  }
+ 
+  .list table th{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #353b48;
+    color: #fff;
+    font-size: 13px;
+  }
+ 
+  .list table td{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    background-color: #fff;
+  }
+  .spcl{
+    display: flex;
+    width: 100%;
+  }
+  .anh123{
+    width: 30%;
+  }
